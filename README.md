@@ -1,5 +1,5 @@
 # CPNT260-A Web Page Construction Fundamentals
-## [Assignment 3](https://github.com/sait-wbdv/assessments/tree/master/cpnt260/assignment-3)
+## [Assignment 3](https://github.com/sait-wbdv/assessments/tree/master/cpnt260/assignment-3) : Subscription form
 
 by **Vincent Miranda**
 
