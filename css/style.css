@@ -1,0 +1,131 @@
+/* defaults */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+  font-size: 25px;
+}
+
+/* div class */
+.wrapper {
+  display: flex;
+  height: 100vh;
+
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background-image: url(https://picsum.photos/id/130/3807/2538);
+  background-size: cover;
+  background-position: center;
+}
+
+/* content style */
+form {
+  font-size: 20px;
+  border: 2px solid black;
+  margin: auto;
+  max-width: 35ch;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin: 0;
+
+  font-family: 'Montserrat Alternates', Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+p {
+  margin: auto;
+
+  font-family: 'Passion One', Helvetica, sans-serif;
+  font-size: 10px;
+  color: black;
+  width: max-content;
+  padding-bottom: 5px;
+}
+
+.required {
+  color: red;
+}
+
+legend {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+fieldset {
+  border: 0;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+fieldset ul {
+  margin-left: 2rem;
+  margin-top: 0;
+}
+
+fieldset ul input {
+  height: 1rem;
+  width: 1rem;
+}
+
+input {
+  border: 1px solid black;
+}
+
+.text-fields p {
+  display: flex;
+  
+}
+
+.text-fields label {
+  width: 10ch;
+  font-size: 20px;
+}
+
+.text-fields p input {
+  flex: 1;
+}
+
+.select {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30ch;
+}
+
+textarea {
+  display: flex;
+  border: 1px solid black;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  margin: 10px;
+  margin-top: 0;
+}
+
+/* button style */
+button {
+  font-size: 24px;
+  padding: 0.50rem 1em;
+  border: 2px solid black;
+  border-radius: 2rem;
+ 
+}
+
+/* button behavior */
+button:hover {
+  color: white;
+  background-image: linear-gradient(black 10%, gray 60%, white 80%);
+}
+  
+button:active {
+  color: white;
+  background-image: linear-gradient(white 20%, gray 30%, black 90%);
+}

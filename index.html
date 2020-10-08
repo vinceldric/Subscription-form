@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription Form</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Passion+One&display=swap">
+  <link rel="stylesheet" href="https://sait-wbdv.github.io/sample-code/assets/css/v0/reset.css">
+  <link rel="stylesheet" href="https://sait-wbdv.github.io/sample-code/assets/css/v0/utilities.css">
+</head>
+<body>
+
+  <main class="wrapper full-vh vp-centre">
+    <h1> Website Coming Soon!! </h1>
+    <form action="#">
+      <fieldset>
+        <legend> Please Subscribe to be updated! </legend>
+        <div class="form-wrapper">
+          <div class="text-fields">
+            <p>
+              <label for="fname">First Name:<abbr class="required" title="required">*</abbr></label> 
+              <input type="text" placeholder="Enter First Name" id="fname" name="firstName" pattern="[A-Za-z]{2,20}" required>
+            </p>
+    
+            <p>
+              <label for="lname">Last Name:<abbr class="required" title="required">*</abbr></label> 
+              <input type="text" placeholder="Enter Last Name" id="lname" name="lastName" pattern="[A-Za-z]{2,20}" required>
+            </p>
+    
+            <p>
+              <label for="email">Email:<abbr class="required" title="required">*</abbr></label> 
+              <input type="email" placeholder="Enter Email" id="email" name="email" required>
+            </p>
+          </div>
+            
+          <fieldset>
+            <legend> Menu of the Day </legend>
+            <div class="select">
+              <label for="Menu"> Food </label>
+              <select name="Food" id="Food">
+                <option value="Wings">Wings</option>
+                <option value="Ribs">Ribs</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Burger">Burger</option>
+              </select>
+            
+              <label for="Menu"> Drinks </label>
+              <select name="cars" id="cars">
+                <option value="Rum">Rum</option>
+                <option value="Gin">Gin</option>
+                <option value="Bourbon">Bourbon</option>
+                <option value="Tequila">Tequila</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend> Additional info </legend>
+              <ul class="list-reset">
+                <li><input type="checkbox" id="checkbo1" name="checkbox" value="checkbox">
+                    <label for="checkbox1">I would like to receive promotional emails</label>
+                </li>
+              </ul>
+          </fieldset>
+    
+          <fieldset>
+            <legend> Comment </legend>
+            <textarea type="text" placeholder="Enter Comments Here" name="comment" rows="4" cols="37" maxlength="200" required></textarea>
+          </fieldset>
+        </div>
+      </fieldset>
+
+      <footer>
+        <button type="submit">Submit</button>
+      </footer>
+    </form>
+  </main>
+</body>
+</html>
